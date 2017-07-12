@@ -330,7 +330,8 @@ body{
     margin-left: 10%;
   }
   .index_posts_one{
-
+    margin-left: 0;
+    
   }
   .post_photo{
     display: block;
