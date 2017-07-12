@@ -2,51 +2,48 @@ body{
   margin: 0px;
   width: 100vw;
 }
+.desktop{
+  display: none;
+}
 #floatingfonts{
   font-family: 'Amaranth', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 .full_header{
-  padding: 2% 0% 1% 0%;
+  padding: 9px 0% 0% 0%;
 }
 .header_mobile_icon{
-  width: 62vw;
-  margin-left: 10%
+  width: 240px;
+  margin-left: 55px;
 }
-.header_desktop_icon{
-  display: none;
-}
+
 .fa-bars{ 
   color:#9C0058;
-  font-size: 250%;
+  font-size: 43px;
   -webkit-text-stroke: 2px white;
 }
 .fa-bar-div{
   margin: 0 auto;
 
 }
-.upper_and_lower_header{
-  display: none;
-}
 .mobile_header{
   display: flex;
   align-items: center;
-  margin-bottom: 3%
+  margin-bottom: 15px;
 }
 .mobile_menu{
   display: none;
   flex-direction: column;
   align-items: center;
   background-color: #9C0058;
-  width: 100vw;
-  height: 80vh;
   font-family: 'Poppins', sans-serif;
   color: white;
 }
 .mobile_menu_upper{
-  padding-top: 8%;
+  padding-top: 30px;
+  padding-bottom: 34px;
   border-bottom: 1px ridge white;
-  width: 85vw;
+  width: 350px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -60,14 +57,22 @@ body{
   line-height: 58px;
 }
 .mobile_menu_lower{
-  padding-top: 5%;
+  padding-top: 20px;
   text-align: center;
   font-size: 23px;
-  line-height: 21px
+  line-height: 21px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px
 }
 
 .homepage_hero{
-  height: 40vh;
+  width: 560px;
+}
+.index_main{
+  margin: 0 55px 0 55px;
 }
 .index_first{
   font-family: 'Amaranth', sans-serif;
@@ -76,18 +81,14 @@ body{
   font-size: 36px;
   font-weight: normal;
   padding-bottom: 10%;
-  margin:0 11%;
   border-bottom: ridge #EAEAEA;
-}
-.index_first_desktop_only{
-  display: none;
 }
 .index_second{
   font-family: 'Amaranth', sans-serif;
   color: #9C0058;
   text-align: center;
   font-size: 24px;
-  padding: 5% 10% 0 10%;
+  padding: 15px 10px 0 10px;
   margin-bottom: 0px;
   line-height: 35px;
 }
@@ -97,7 +98,8 @@ body{
   text-align: center;
   font-size: 13px;
   line-height: 35px;
-  margin: .5em 13% 0 13%;
+  margin: 10px 25px 0 25px;
+  list-style-position: inside;
 }
 .index_buttons{
   font-family: 'Poppins', sans-serif;
@@ -105,16 +107,19 @@ body{
   font-size: 18px;
   background-color: #56B4BA;
   text-align: center;
-  padding: 3% 0 3% 0;
-  margin: 4% 24% 9% 24%;
+  padding: 15px 0 15px 0;
+  margin: 20px 73px 20px 73px;
   border-radius: 8px;
 }
+.buttons{
+  text-decoration: none;
+}
 .index_purple_buttons_upper{
-  margin: 13% auto 21% auto;
-  width: 78vw;
+  margin: 46px auto 73px auto;
 }
 .purple_buttons_photo{
   width:100%;
+  display: block;
 }
 .index_purple_buttons_lower{
   font-family: 'Poppins', sans-serif;
@@ -123,23 +128,18 @@ body{
   background-color: #9C0058;
   text-align: center;
   border-radius: 0 0 8px 8px;
-  margin-top: -2%;
-  padding: 8%;
+  padding: 25px;
 
 }
 .index_posts{
-  margin-bottom: 20%; 
+  margin-bottom: 80px; 
 }
 .index_posts_one{
-  margin-left: 9%;
-}
-.post_photo{
-  display: none;
 }
 .posts_headline{
   font-family: 'Poppins', sans-serif;
   color: #9C0058;
-  font-size: 26px;
+  font-size: 23px;
   font-weight: bolder;
   margin: 0px;
 }
@@ -148,22 +148,22 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .posts_date_and_link p{
-  margin: 1% 0 1% 0 ;
-  font-size: 19px;
+  margin: 2px 0 2px 0 ;
+  font-size: 16px;
 }
 .article_category_link{
   color: #9C0058;
-  padding-left: 3%
+  padding-left: 15px;
 }
 .article_date{
-  padding-right: 3%;
+  padding-right: 15px;
   border-right: ridge;
 }
 .article_blurb{
   font-family: 'Poppins', sans-serif;
   line-height: 28px;
-  margin: 0 20% 0 0;
-  font-size: 17px;
+  margin: 0 30px 0 0;
+  font-size: 15px;
 }
 .index_blue_buttons{
   font-family: 'Poppins', sans-serif;
@@ -171,13 +171,13 @@ body{
   font-size: 18px;
   background-color: #56B4BA;
   text-align: center;
-  padding: 4% 0 4% 0;
-  margin: 6% 26% 17% 16%;
+  padding: 17px 0 17px 0;
+  margin: 20px 50px 50px 50px;
   border-radius: 8px;
 
 }
 .index_footer{
-  background-color: #EAEAEA;
+  background-image: url("./FOOTER-BACKGROUND.png");
   color: #95989A;
   display: flex;
   flex-direction: column;
@@ -186,15 +186,11 @@ body{
 }
 .index_footer p{
   margin: 0px;
-}
-.footer_swoosh{
-  width: 100vw;
-  clip-path: inset(0 0 80%);
+
 }
 .footer_mobile_icon{
-  width: 80vw;
-  margin-top: -14%;
-  margin-bottom: 4%
+  margin: 80px 55px 20px 55px;
+  width: 361px;
 }
 .address{
   font-size: 14.5px
@@ -206,7 +202,7 @@ body{
   font-size: 12px;
 }
 .rights{
-  padding-top: 10%;
+  padding-top: 40px;
 }
 
 @media (min-width: 570px) {
