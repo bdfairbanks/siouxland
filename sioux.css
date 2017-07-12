@@ -7,10 +7,11 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .full_header{
-  padding: 4% 8% 1% 10%;
+  padding: 2% 0% 1% 0%;
 }
 .header_mobile_icon{
   width: 62vw;
+  margin-left: 10%
 }
 .header_desktop_icon{
   display: none;
@@ -21,11 +22,16 @@ body{
   -webkit-text-stroke: 2px white;
 }
 .fa-bar-div{
-  float: right;
-  padding-top: 5%;
+  margin: 0 auto;
+
 }
 .upper_and_lower_header{
   display: none;
+}
+.mobile_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%
 }
 .mobile_menu{
   display: none;
@@ -34,19 +40,24 @@ body{
   background-color: #9C0058;
   width: 100vw;
   height: 80vh;
-  color: white;
-  margin-left: -13%;
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 .mobile_menu_upper{
-  padding-top: 5%;
+  padding-top: 8%;
   border-bottom: 1px ridge white;
   width: 85vw;
   text-align: center;
-  font-size: 23px;
-  line-height: 21px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .mobile_menu_navigation{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 58px;
 }
 .mobile_menu_lower{
   padding-top: 5%;
@@ -331,7 +342,7 @@ body{
   }
   .index_posts_one{
     margin-left: 0;
-    
+
   }
   .post_photo{
     display: block;
