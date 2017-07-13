@@ -22,12 +22,12 @@ body{
   -webkit-text-stroke: 2px white;
 }
 .fa-bar-div{
-  margin: 0 0 0 57px;
 }
 .mobile_header{
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  justify-content: space-between;
 }
 .mobile_menu{
   display: none;
@@ -74,7 +74,8 @@ body{
   width: 100%;
 }
 .index_main{
-  margin: 0 55px 0 55px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 .index_first{
   font-family: 'Amaranth', sans-serif;
@@ -114,15 +115,13 @@ body{
   color: white;
   font-size: 18px;
   background-color: #56B4BA;
-  text-align: center;
-  padding: 15px 15px 15px 15px;
- 
+  margin: 14px auto 45px auto;
+  padding: 15px 45px 15px 45px;
   border-radius: 8px;
+  display: table;
 }
 .buttons{
   text-decoration: none;
-  margin: 20px 58px 20px 58px;
-  display: block;
 }
 .purple_buttons{
   text-decoration: none;
@@ -143,7 +142,10 @@ body{
   background-color: #9C0058;
   text-align: center;
   border-radius: 0 0 8px 8px;
-  padding: 25px;
+  padding: 21px 0px 21px 0px;
+  display: table;
+  margin: 0 auto;
+  width: 100%;
 }
 .index_posts{
   margin-bottom: 80px; 
@@ -198,11 +200,11 @@ body{
   flex-direction: column;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  margin: 0px -55px 0 -55px;
   padding-bottom: 10px;
 }
 .index_footer p{
   margin: 0px;
+  text-align: center;
 }
 .footer_mobile_icon{
   margin: 95px 0 20px 0;
