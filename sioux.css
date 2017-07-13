@@ -14,7 +14,6 @@ body{
 }
 .header_mobile_icon{
   width: 240px;
-  margin-left: 55px;
 }
 
 .fa-bars{ 
@@ -36,8 +35,6 @@ body{
   flex-direction: column;
   align-items: center;
   background-color: #9C0058;
-  font-family: 'Poppins', sans-serif;
-  color: white;
 }
 .mobile_menu_upper{
   padding-top: 30px;
@@ -55,6 +52,11 @@ body{
   text-decoration: none;
   font-size: 21px;
   line-height: 58px;
+
+}
+.mobile_menu_current_page{
+  width: 126px;
+  border-bottom: 3px ridge white;
 }
 .mobile_menu_lower{
   padding-top: 20px;
@@ -69,7 +71,7 @@ body{
 }
 
 .homepage_hero{
-  width: 560px;
+  width: 100%;
 }
 .index_main{
   margin: 0 55px 0 55px;
@@ -101,18 +103,31 @@ body{
   margin: 10px 25px 0 25px;
   list-style-position: inside;
 }
+.index_bullets{
+  margin: 10px 25px 0 0;
+}
+.bullet{
+  position:relative;left:-10px;
+}
 .index_buttons{
   font-family: 'Poppins', sans-serif;
   color: white;
   font-size: 18px;
   background-color: #56B4BA;
   text-align: center;
-  padding: 15px 0 15px 0;
-  margin: 20px 73px 20px 73px;
+  padding: 15px 15px 15px 15px;
+ 
   border-radius: 8px;
 }
 .buttons{
   text-decoration: none;
+  margin: 20px 58px 20px 58px;
+  display: block;
+}
+.purple_buttons{
+  text-decoration: none;
+  margin: 46px auto 73px auto;
+  display: block;
 }
 .index_purple_buttons_upper{
   margin: 46px auto 73px auto;
@@ -129,12 +144,12 @@ body{
   text-align: center;
   border-radius: 0 0 8px 8px;
   padding: 25px;
-
 }
 .index_posts{
   margin-bottom: 80px; 
 }
 .index_posts_one{
+  margin-top: 70px;
 }
 .posts_headline{
   font-family: 'Poppins', sans-serif;
@@ -183,23 +198,24 @@ body{
   flex-direction: column;
   align-items: center;
   font-family: 'Poppins', sans-serif;
+  margin: 0px -55px 0 -55px;
+  padding-bottom: 10px;
 }
 .index_footer p{
   margin: 0px;
-
 }
 .footer_mobile_icon{
-  margin: 80px 55px 20px 55px;
-  width: 361px;
+  margin: 95px 0 20px 0;
+  width: 330px;
 }
 .address{
-  font-size: 14.5px
+  font-size: 17px
 }
 .phone_number{
-  font-size: 16px;
+  font-size: 19px;
 }
 .footer_ender{
-  font-size: 12px;
+  font-size: 15px;
 }
 .rights{
   padding-top: 40px;
