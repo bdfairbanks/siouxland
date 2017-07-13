@@ -34,7 +34,6 @@ body{
   flex-direction: column;
   align-items: center;
   background-color: #9C0058;  
-  margin: 0 -55px 0 -55px;
 }
 .mobile_menu_upper{
   padding-top: 30px;
@@ -224,7 +223,32 @@ body{
   padding-top: 40px;
 }
 
-@media (min-width: 570px) {
+@media (min-width: 570px) and (max-width: 1024px) {
+  .index_main{
+    margin: 0 100px 0 100px;
+  }
+  .footer_mobile_icon {
+    margin: 95px auto 20px auto;
+    width: 380px;
+    display: block;
+  }
+  .address {
+    font-size: 20px;
+  }
+  .phone_number {
+    font-size: 23px;
+  }
+  .footer_ender {
+    font-size: 17px;
+  }
+}
+@media(min-width: 1025px) and (max-width: 1319) {
+  .index_main{
+    margin: 0 120px 0 120px;
+  }
+  
+}
+@media(min-width: 1320){
   .index_main{
     margin: 0 140px 0 140px;
   }
