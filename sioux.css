@@ -223,7 +223,7 @@ body{
 
 @media (min-width: 570px) {
   .index_main{
-    margin: 0 150px 0 150px;
+    margin: 0 140px 0 140px;
   }
   .full_header{
     padding: 0;
@@ -239,7 +239,7 @@ body{
   }
   .header_desktop_icon{
     display: block;
-    margin-top: 20px;
+    margin-top: 14px;
     width: 420px;
     height: 85px;
   }
@@ -248,15 +248,11 @@ body{
   }
   .fa-bar-div{
     display: none
-  }
-  .social_media{
-    align-self: center;
-    font-size: 21px;
-  }
+  } 
   .upper_and_lower_header{
-    margin-left: 20%;
+    margin-left: 187px;
     display: block;
-    width: 52vw;
+    width: 592px;
   }
   .upper_header{
     display: flex;
@@ -264,7 +260,7 @@ body{
     justify-content: space-around;
     color: #9C0058;
     font-family: 'Poppins', sans-serif;
-    margin-top: 1%;
+    margin-top: 13px;
   }
   .upper_header>*{
     margin: 0px;
@@ -273,54 +269,59 @@ body{
     border-left: 1px groove #9C0058;
     border-right: 1px groove #9C0058;
     padding: 0 2%;
-
+  }
+   .social_media{
+    align-self: center;
+    font-size: 21px;
   }
   .lower_header{
-    height: 40%;
-    border-radius: 10px 10px 0px 0;
+    border-radius: 9px 9px 0px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
     background-color: #9C0058;
+    margin-top: 25px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    font-size: 20px;
   }
   .lower_header>*{
-    margin: 1%;
+    margin: 0;
   }
   .clear{
     clear: all;
   }
   .homepage_hero{
-    width: 100vw;
-    height: 82vh;
   }
   .index_first_div{
     text-align: left;
-    margin-left: 54%;
-    margin-top: -33%;
+    margin-left: 649px;
+    margin-top: -527px
   }
   .index_first{
     text-align: left;
-    padding-bottom: 0%;
-    margin:0;
+    padding-bottom: 0;
+    margin: 0;
     border-bottom: none;
-    font-size: 41px;
-
+    font-size: 46px;
+    line-height: 46px;
+    margin-right: 202px;
   }
   .index_first_desktop_only{
     display: block;
-    width: 72%;
     font-family: 'Poppins', sans-serif;
     color: #6E003F;
     font-size: 13px;
     line-height: 27px;
+    margin-right: 43px;
   }
   .index_after_hero{
     display: flex;
-    margin: 15% 10% 0 10%;
+    margin: 350px 0 0 0;
     justify-content: space-between;
   }
   .index_specialists_striving_benifits{
-    width: 30%;
+    width: 300px;
   }
   .index_second{
     text-align: left;
@@ -337,15 +338,17 @@ body{
   .index_buttons{
     margin: 4% 55% 9% 0;
   }
-  .index_purple_button_holder{
-    margin: 5% 10% 0 10%;
+  .index_purple_button_holder{ 
+    margin: 10px 0 0 0;
     display: flex;
     justify-content: space-between;
-
+  }
+  .purple_buttons{
+    margin: 46px 0 73px 0;
   }
   .index_purple_buttons_upper{
-    width: 38vw;
-    margin: 0 0 10% 0;
+    width: 536px;
+    margin: 0 0 0 0;
   }
   .purple_buttons_photo{
 
@@ -363,5 +366,8 @@ body{
   }
   .post_photo{
     display: block;
+  }
+  .index_footer{
+    margin: 0 -110px 0 -110px;
   }
 }
