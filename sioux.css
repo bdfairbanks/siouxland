@@ -105,7 +105,8 @@ body{
   list-style-position: inside;
 }
 .index_bullets{
-  margin: 10px 25px 0 0; 
+  margin: 10px 0px 0 0;
+  padding: 0; 
 }
 .bullet{
   position:relative;left:-10px;
