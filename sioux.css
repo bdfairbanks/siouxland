@@ -197,6 +197,12 @@ body{
   border-radius: 8px;
 
 }
+.index_posts_one_third{
+  display: none;
+}
+.index_posts_grey{
+  display: none;
+}
 .index_footer{
   background-image: url("./FOOTER-BACKGROUND.png");
   color: #95989A;
@@ -393,8 +399,76 @@ body{
   }
   .index_purple_buttons_lower{
     margin: 0;
-
   }
+  .desktop_posts_and_greybox{
+    display: flex;
+  }
+  .post_photo{
+    display: block;
+    background-color: #EAEAEA;
+    width: 235px;
+    height: 140px;
+    margin-right: 43px;
+  }
+  .index_posts_one_third{
+    display: block;
+    border-bottom: none;
+  }
+  .post_non_photo_content{
+  }
+  .index_posts_grey{
+    display: block;
+    background-color: #EAEAEA;
+    border-radius: 8px;
+    width: 302px;
+    height: 533px;
+    margin-left: 74px
+  }
+  .index_posts_one{
+    margin-top: 70px;
+    display: flex;
+    border-bottom: 2px ridge #EAEAEA;
+  }
+  .posts_headline{
+    font-family: 'Poppins', sans-serif;
+    color: #9C0058;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0px;
+  }
+  .posts_date_and_link{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+  }
+  .posts_date_and_link p{
+    margin: 2px 0 2px 0 ;
+    font-size: 10px;
+  }
+  .article_category_link{
+    color: #9C0058;
+    padding-left: 15px;
+  }
+  .article_date{
+    padding-right: 15px;
+    border-right: ridge;
+  }
+  .article_blurb{
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin: 0;
+    font-size: 10px;
+  }
+  .index_blue_buttons{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    background-color: #56B4BA;
+    text-align: center;
+    padding: 17px 0 17px 0;
+    margin: 20px 50px 50px 50px;
+    border-radius: 8px;
+
+}
 }
 /*@media(min-width: 1320px){
   .index_main{
