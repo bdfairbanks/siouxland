@@ -229,9 +229,13 @@ body{
 .footer_ender{
   font-size: 15px;
 }
+.footer_navigation{
+  display: none; 
+}
 .rights{
   padding-top: 40px;
 }
+
 
 @media (min-width: 570px) and (max-width: 989px) {
   .index_main{
@@ -292,11 +296,13 @@ body{
     font-size: 10px;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
-    margin-top: 13px;
+    padding-top: 13px;
+    background-color: #9C0058;
+    color: white !important;
   }
   .upper_header>*{
     margin: 0px;
-    color: #9C0058;
+    color: white;
   }
   .header_phone_number{
     border-left: 1px groove #9C0058;
@@ -406,13 +412,15 @@ body{
   .post_photo{
     display: block;
     background-color: #EAEAEA;
-    width: 235px;
+    padding-right: 235px;
     height: 140px;
     margin-right: 43px;
+    margin-bottom: 40px;
+    border-radius: 8px;
   }
-  .index_posts_one_third{
+  .third_post{
     display: block;
-    border-bottom: none;
+    border-bottom: none !important;
   }
   .post_non_photo_content{
   }
@@ -420,14 +428,31 @@ body{
     display: block;
     background-color: #EAEAEA;
     border-radius: 8px;
-    width: 302px;
-    height: 533px;
-    margin-left: 74px
+    padding-top: 16px;
+    margin-left: 74px;
+    height: 468px;
+  }
+  .index_posts_two{
+    padding: 20px 0 30px 0;
+    margin: 0 50px 0 50px;
+    border-bottom: 1px ridge #95989A;
+  }
+  .posts_headline_two{
+
+  }
+  .mobile_only{
+    display: none;
+  }
+  .index_posts{
+    margin-bottom: 0;
   }
   .index_posts_one{
-    margin-top: 70px;
+    margin-top: 0px;
     display: flex;
+    padding-bottom: 10px;
     border-bottom: 2px ridge #EAEAEA;
+    margin-bottom: 40px;
+
   }
   .posts_headline{
     font-family: 'Poppins', sans-serif;
@@ -454,166 +479,44 @@ body{
   }
   .article_blurb{
     font-family: 'Poppins', sans-serif;
-    line-height: 28px;
+    line-height: 21px;
     margin: 0;
     font-size: 10px;
-  }
-  .index_blue_buttons{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 18px;
-    background-color: #56B4BA;
-    text-align: center;
-    padding: 17px 0 17px 0;
-    margin: 20px 50px 50px 50px;
-    border-radius: 8px;
-
-}
-}
-/*@media(min-width: 1320px){
-  .index_main{
-    margin: 0 140px 0 140px;
-  }
-  .full_header{
-    padding: 0;
-  }
-  .desktop_header{
-    display: flex;
-  }
-  .mobile_header{
-    display: none;
-  }
-  .header_mobile_icon{
-    display: none;
-  }
-  .header_desktop_icon{
-    display: block;
-    margin-top: 14px;
-    width: 420px;
-    height: 85px;
-  }
-  .fa-bars{
-    display: none;
-  }
-  .fa-bar-div{
-    display: none
-  } 
-  .upper_and_lower_header{
-    margin-left: 187px;
-    display: block;
-    width: 592px;
-  }
-  .upper_header{
-    display: flex;
-    font-size: 12px;
-    justify-content: space-around;
-    color: #9C0058;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 13px;
-  }
-  .upper_header>*{
-    margin: 0px;
-  }
-  .header_phone_number{
-    border-left: 1px groove #9C0058;
-    border-right: 1px groove #9C0058;
-    padding: 0 2%;
-  }
-   .social_media{
-    align-self: center;
-    font-size: 21px;
-  }
-  .lower_header{
-    border-radius: 9px 9px 0px 0;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    background-color: #9C0058;
-    margin-top: 25px;
-    padding-top: 18px;
-    padding-bottom: 10px;
-    font-size: 20px;
-  }
-  .lower_header>*{
-    margin: 0;
-  }
-  .homepage_hero{
-  }
-  .index_first_div{
-    text-align: left;
-    margin-left: 649px;
-    margin-top: -527px
-  }
-  .index_first{
-    text-align: left;
-    padding-bottom: 0;
-    margin: 0;
-    border-bottom: none;
-    font-size: 46px;
-    line-height: 46px;
-    margin-right: 202px;
-  }
-  .index_first_desktop_only{
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    color: #6E003F;
-    font-size: 13px;
-    line-height: 27px;
-    margin-right: 43px;
-  }
-  .index_after_hero{
-    display: flex;
-    margin: 350px 0 0 0;
-    justify-content: space-between;
-  }
-  .index_specialists_striving_benifits{
-    width: 300px;
-  }
-  .index_second{
-    text-align: left;
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-  }
-  .index_third{
-    text-align: left;
-    font-size: 10px;
-    line-height: 27px;
-    margin: 0;
   }
   .index_buttons{
-    margin: 4% 55% 9% 0;
+    font-size: 12px;    
   }
-  .index_purple_button_holder{ 
-    margin: 10px 0 0 0;
+  .desktop_footer{
     display: flex;
     justify-content: space-between;
   }
-  .purple_buttons{
-    margin: 46px 0 73px 0;
-  }
-  .index_purple_buttons_upper{
-    width: 536px;
-    margin: 0 0 0 0;
-  }
-  .purple_buttons_photo{
-
-  }
-  .index_purple_buttons_lower{
-
-  }
-  .index_posts{
-    width: 40%;
-    margin-left: 10%;
-  }
-  .index_posts_one{
-    margin-left: 0;
-
-  }
-  .post_photo{
-    display: block;
+  .desktop_footer_left{
+    margin-top: 17px;
   }
   .index_footer{
-    margin: 0 -110px 0 -110px;
+    display: block;
   }
-}*/
+  .footer_navigation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px; 
+    font-size: 10px;
+    line-height: 21px;
+  }
+  .footer_navigation>*{
+    color: #95989A;
+  }
+  .address{
+    font-size: 11px;
+  }
+  .phone_number{
+    font-size: 11px;
+  }
+  .rights{
+    font-size: 11px !important;
+  }
+  .footer_ender{
+    margin: 0 auto;
+    font-size: 10px;
+  }
+}
