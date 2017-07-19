@@ -239,7 +239,8 @@ body{
 
 @media (min-width: 570px) and (max-width: 989px) {
   .index_main{
-    padding: 0 100px 0 100px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .footer_mobile_icon {
     margin: 95px auto 20px auto;
@@ -258,7 +259,8 @@ body{
 }
 @media (min-width: 990px) {
   .index_main{
-    padding: 0 120px 0 120px;
+    padding-left: 120px;
+    padding-right: 120px;
     max-width: 990px;
     margin: 0 auto;
   }
@@ -332,14 +334,13 @@ body{
   }
   .desktop_full_size_herotext{
     background-image: url(./HOME-PAGE-FEATURED-IMAGE.png);  
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position-x: 50%;
     height: 636px;
     padding-right: 0;
     padding-left: 0; 
   }
   .index_first_div{
-    display: flex;
-    flex-direction: column;
     padding-top: 95px;
     padding-left: 52%
   }
@@ -366,7 +367,7 @@ body{
     justify-content: space-between;
   }
   .index_specialists_striving_benifits{
-    width: 253px
+    width: 27%
   }
   .index_second{
     text-align: left;
@@ -386,7 +387,7 @@ body{
     border-radius: 5px;
   }
   .index_bullets{
-    line-height: 39px !important;
+    line-height: 30px !important;
   }
   .index_purple_button_holder{ 
     margin: 10px 0 0 0;
@@ -395,7 +396,7 @@ body{
   }
   .purple_buttons{
     margin: 46px 0 73px 0;
-    width: 472px;
+    width: 46%;
   }
   .index_purple_buttons_upper{
     margin: 0px;  
@@ -429,12 +430,12 @@ body{
     background-color: #EAEAEA;
     border-radius: 8px;
     padding-top: 16px;
-    margin-left: 74px;
-    height: 468px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .index_posts_two{
     padding: 20px 0 30px 0;
-    margin: 0 50px 0 50px;
     border-bottom: 1px ridge #95989A;
   }
   .posts_headline_two{
@@ -452,14 +453,9 @@ body{
     padding-bottom: 10px;
     border-bottom: 2px ridge #EAEAEA;
     margin-bottom: 40px;
-
   }
   .posts_headline{
-    font-family: 'Poppins', sans-serif;
-    color: #9C0058;
     font-size: 14px;
-    font-weight: bolder;
-    margin: 0px;
   }
   .posts_date_and_link{
     display: flex;
@@ -471,10 +467,10 @@ body{
   }
   .article_category_link{
     color: #9C0058;
-    padding-left: 15px;
+    padding-left: 5px;
   }
   .article_date{
-    padding-right: 15px;
+    padding-right: 5px;
     border-right: ridge;
   }
   .article_blurb{
