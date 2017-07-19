@@ -282,6 +282,7 @@ body{
     margin-top: 14px;
     width: 400px;
     height: 85px;
+    margin-bottom: 10px;
   }
   .fa-bars{
     display: none;
@@ -291,29 +292,35 @@ body{
   } 
   .upper_and_lower_header{
     display: block;
+    position: relative;
   }
   .upper_header{
     display: flex;
+    flex-wrap: nowrap;
     font-size: 10px;
     align-items: center;
-    justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 0 0 10px 10px;
     background-color: #9C0058;
     color: white !important;
-    width: 333px;
     margin-right: 0;
     margin-left: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
-  .upper_header>*{
+  .upper_header a{
+    white-space: nowrap;
     margin: 0px;
     color: white;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   .header_phone_number{
     border-left: 1px groove white;
-    padding: 0 0 0 7%;
+    padding: 0 0 0 3%;
   }
    .social_media{
     align-self: center;
@@ -323,7 +330,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    padding-top: 18px;
+    padding-top: 51px;
     padding-bottom: 10px;
     font-size: 15px;
     width: 400px;
