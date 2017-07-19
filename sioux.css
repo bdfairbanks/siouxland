@@ -291,43 +291,46 @@ body{
   } 
   .upper_and_lower_header{
     display: block;
-    width: 400px;
   }
   .upper_header{
     display: flex;
     font-size: 10px;
+    align-items: center;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
-    padding-top: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 0 0 10px 10px;
     background-color: #9C0058;
     color: white !important;
+    width: 333px;
+    margin-right: 0;
+    margin-left: auto;
   }
   .upper_header>*{
     margin: 0px;
     color: white;
   }
   .header_phone_number{
-    border-left: 1px groove #9C0058;
-    border-right: 1px groove #9C0058;
-    padding: 0 2%;
+    border-left: 1px groove white;
+    padding: 0 0 0 7%;
   }
    .social_media{
     align-self: center;
     font-size: 21px;
   }
   .lower_header{
-    border-radius: 9px 9px 0px 0;
     display: flex;
-    justify-content: space-around;
-    background-color: #9C0058;
+    justify-content: space-between;
     margin-top: 25px;
     padding-top: 18px;
     padding-bottom: 10px;
-    font-size: 17px;
+    font-size: 15px;
+    width: 400px;
   }
   .lower_header>*{
     margin: 0;
-    color: white;
+    color: #9C0058;
   }
   .homepage_hero{
     display: none
@@ -385,9 +388,6 @@ body{
     margin: 10px 0 0 0;
     padding: 9px 22px 9px 22px;
     border-radius: 5px;
-  }
-  .index_bullets{
-    line-height: 30px !important;
   }
   .index_purple_button_holder{ 
     margin: 10px 0 0 0;
