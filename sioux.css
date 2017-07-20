@@ -238,6 +238,10 @@ body{
 .rights{
   padding-top: 40px;
 }
+.our_services_first_div{
+  border-bottom: 1px ridge #95989A;
+  margin-bottom: 40px;
+}
 .our_services_first{
   font-family: 'Amaranth', sans-serif;
   color: #9C0058;
@@ -249,28 +253,94 @@ body{
   font-family: 'Poppins', sans-serif;
   color: #95989A;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 29px;
   margin-bottom: 10px;
 }
 .our_services_content_image{
   display: none;
 }
+.our_services_content_image_div{
+    display: none;
+}
+.our_services_after_hero_text{
+  margin-top: -10px;
+}
+.our_services_bullet{
+  position: relative;
+  left: -10px;
+}
+.our_services_third{
+  text-align: left;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 6px 0 0 14px;
+  list-style-position: inside;
+  text-align: center;
+}
+.our_services_buttons{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #56B4BA;
+  font-size: 13px;
+  display: table;
+  padding: 9px 22px 9px 22px;
+  border-radius: 5px; 
+  margin: 22px auto 0 auto;
+}
+.our_services_third_div{
+  margin-top: 55px;
+  text-align: center;
+  border-bottom: 1px ridge #95989A; 
+}
+.our_services_third_div_headline{
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Amaranth', sans-serif;
+   color: #9C0058;
+  line-height: 35px;
+}
+.our_services_third_div_text{
+  font-size: 11px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #95989A;
+}
 .our_services_fourth_div{
+  margin-top: 40px;
+}
+.our_services_posts_one{
+  margin-top: 0px;
   display: flex;
+  flex-direction: column;
+}
+.our_services_grey_text{
+  text-align: center;
+  font-size: 12px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+  list-style-position: inside;
+}
+.our_services_grey_spacing{
+  margin-bottom: 27px;
+}
+.our_services_post_photo{
+  display: none;
 }
 .our_services_posts_grey{
   display: block;
   background-color: #EAEAEA;
   border-radius: 8px;
-  padding-top: 16px;
-  margin-left: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-bottom: 40px;
 }
 .our_services_post_photo{
   display: none;
 }
+.post_non_photo_content{
+  }
 
 @media (min-width: 570px) and (max-width: 989px) {
   .index_main{
@@ -560,20 +630,24 @@ body{
     font-size: 10px;
   }
    .our_services_first_div{
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-bottom: 95px;
+    border-bottom: none;
+  }
+  .our_services_bullet{
+    left: 0px;
   }
   .our_services_content_image_div{
     margin-right: 75px;
-    width: 74%;
+    width: 80%;
+    display: block;
   }
   .our_services_content_image{
     display: block;
     width: 100%;
   }
   .our_services_after_hero_text{
-    margin-top: -10px;
 
   }
   .our_services_third{
@@ -588,12 +662,13 @@ body{
     background-color: #56B4BA;
     font-size: 13px;
     display: table;
-    margin-top: 22px;
+    margin: 22px 0 0 0;
     padding: 9px 22px 9px 22px;
     border-radius: 5px; 
   }
   .our_services_third_div{
-    margin-top: 55px;
+    text-align: left;
+    border-bottom: none;
   }
   .our_services_third_div_headline{
     font-size: 24px;
@@ -613,6 +688,7 @@ body{
   }
   .our_services_fourth_div{
     margin-top: 80px;
+    display: flex;
   }
   .our_services_posts_grey{
     display: block;
@@ -625,6 +701,15 @@ body{
     margin-left: 0px;
     margin-right: 85px;
     width: 50%;
+  }
+  .our_services_grey_text{
+    text-align: left;
+    font-size: 10px;
+    line-height: 25px;
+    margin: 0;
+  }
+  .our_services_grey_spacing{
+    margin-bottom: 27px;
   }
   .our_services_posts_one{
     margin-top: 0px;
