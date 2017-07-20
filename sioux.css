@@ -72,6 +72,9 @@ body{
 .homepage_hero{
   width: 100%;
 }
+.regpage_hero{
+  width: 100%;
+}
 .desktop_full_size_herotext{
   padding-left: 55px;
   padding-right: 55px;
@@ -235,7 +238,39 @@ body{
 .rights{
   padding-top: 40px;
 }
-
+.our_services_first{
+  font-family: 'Amaranth', sans-serif;
+  color: #9C0058;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+}
+.our_services_second{
+  font-family: 'Poppins', sans-serif;
+  color: #95989A;
+  text-align: center;
+  font-size: 12px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.our_services_content_image{
+  display: none;
+}
+.our_services_fourth_div{
+  display: flex;
+}
+.our_services_posts_grey{
+  display: block;
+  background-color: #EAEAEA;
+  border-radius: 8px;
+  padding-top: 16px;
+  margin-left: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.our_services_post_photo{
+  display: none;
+}
 
 @media (min-width: 570px) and (max-width: 989px) {
   .index_main{
@@ -354,6 +389,7 @@ body{
     padding-top: 95px;
     padding-left: 52%
   }
+ 
   .index_first{
     padding-bottom: 0;
     margin: 0;
@@ -371,6 +407,7 @@ body{
     line-height: 29px;
     margin-top: 15px;
   }
+
   .index_after_hero{
     display: flex;
     margin: 45px 0 0 0;
@@ -521,5 +558,88 @@ body{
   .footer_ender{
     margin: 0 auto;
     font-size: 10px;
+  }
+   .our_services_first_div{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 95px;
+  }
+  .our_services_content_image_div{
+    margin-right: 75px;
+    width: 74%;
+  }
+  .our_services_content_image{
+    display: block;
+    width: 100%;
+  }
+  .our_services_after_hero_text{
+    margin-top: -10px;
+
+  }
+  .our_services_third{
+    text-align: left;
+    font-size: 11px;
+    line-height: 21px;
+    margin: -3px 0 0 14px;
+  }
+  .our_services_buttons{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #56B4BA;
+    font-size: 13px;
+    display: table;
+    margin-top: 22px;
+    padding: 9px 22px 9px 22px;
+    border-radius: 5px; 
+  }
+  .our_services_third_div{
+    margin-top: 55px;
+  }
+  .our_services_third_div_headline{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amaranth', sans-serif;
+     color: #9C0058;
+    line-height: 35px;
+  }
+  .our_services_third_div_text{
+    font-size: 9px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #95989A;
+  }
+  .our_services_fourth_div{
+    margin-top: 80px;
+  }
+  .our_services_posts_grey{
+    display: block;
+    background-color: #EAEAEA;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 85px;
+    width: 50%;
+  }
+  .our_services_posts_one{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  .our_services_post_photo{
+    display: block;
+    background-color: #EAEAEA;
+    padding-right: 235px;
+    height: 140px;
+    margin-right: 43px;
+    margin-bottom: 10px;
+    border-radius: 8px;
   }
 }
