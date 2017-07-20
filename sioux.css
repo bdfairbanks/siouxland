@@ -325,6 +325,8 @@ body{
   margin: 0;
   padding: 0 15px 0 15px;
   list-style-position: inside;
+  font-family: 'Poppins', sans-serif;
+  color: #95989A;
 }
 .our_services_grey_spacing{
   margin-bottom: 27px;
