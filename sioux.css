@@ -6,8 +6,8 @@ body{
   display: none;
 }
 #floatingfonts{
-  font-family: 'Amaranth', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Arima Madurai', cursive;
+  font-family: 'Lato', sans-serif;
 }
 .full_header{
   padding: 9px 0% 0% 0%;
@@ -46,7 +46,7 @@ body{
   align-items: center;
 }
 .mobile_menu_navigation{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 21px;
@@ -76,33 +76,32 @@ body{
   width: 100%;
 }
 .desktop_full_size_herotext{
-  padding-left: 55px;
-  padding-right: 55px;
 }
 .index_main{
   padding-left: 55px;
   padding-right: 55px;
 }
 .index_first{
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   color: #9C0058;
   text-align: center;
   font-size: 36px;
-  font-weight: normal;
   padding-bottom: 10%;
   border-bottom: ridge #EAEAEA;
+  font-weight: 900;
 }
 .index_second{
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   color: #9C0058;
   text-align: center;
   font-size: 24px;
   padding: 15px 10px 0 10px;
   margin-bottom: 0px;
   line-height: 35px;
+  font-weight: 900;
 }
 .index_third{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #95989A;
   text-align: center;
   font-size: 13px;
@@ -118,7 +117,7 @@ body{
   position:relative;left:-10px;
 }
 .index_buttons{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   font-size: 18px;
   background-color: #56B4BA;
@@ -143,7 +142,7 @@ body{
   display: block;
 }
 .index_purple_buttons_lower{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   font-size: 30px;
   background-color: #9C0058;
@@ -161,7 +160,7 @@ body{
   margin-top: 70px;
 }
 .posts_headline{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #9C0058;
   font-size: 23px;
   font-weight: bolder;
@@ -169,7 +168,7 @@ body{
 }
 .posts_date_and_link{
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .posts_date_and_link p{
   margin: 2px 0 2px 0 ;
@@ -184,13 +183,13 @@ body{
   border-right: ridge;
 }
 .article_blurb{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 28px;
   margin: 0 30px 0 0;
   font-size: 15px;
 }
 .index_blue_buttons{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   font-size: 18px;
   background-color: #56B4BA;
@@ -212,7 +211,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-bottom: 10px;
 }
 .index_footer p{
@@ -227,7 +226,7 @@ body{
   font-size: 17px
 }
 .phone_number{
-  font-size: 19px;
+  font-size: 17px;
 }
 .footer_ender{
   font-size: 15px;
@@ -243,14 +242,14 @@ body{
   margin-bottom: 40px;
 }
 .our_services_first{
-  font-family: 'Amaranth', sans-serif;
+font-family: 'Arima Madurai', cursive;
   color: #9C0058;
   text-align: center;
   font-size: 36px;
   font-weight: normal;
 }
 .our_services_second{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #95989A;
   text-align: center;
   font-size: 13px;
@@ -277,11 +276,11 @@ body{
   margin: 6px 0 0 14px;
   list-style-position: inside;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #95989A;
 }
 .our_services_buttons{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
   background-color: #56B4BA;
   font-size: 13px;
@@ -299,7 +298,7 @@ body{
   font-size: 24px;
   margin: 0;
   padding: 0;
-  font-family: 'Amaranth', sans-serif;
+font-family: 'Arima Madurai', cursive;
    color: #9C0058;
   line-height: 35px;
 }
@@ -307,7 +306,7 @@ body{
   font-size: 11px;
   line-height: 32px;
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #95989A;
 }
 .our_services_fourth_div{
@@ -325,7 +324,7 @@ body{
   margin: 0;
   padding: 0 15px 0 15px;
   list-style-position: inside;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #95989A;
 }
 .our_services_grey_spacing{
@@ -344,8 +343,40 @@ body{
 .our_services_post_photo{
   display: none;
 }
-.post_non_photo_content{
-  }
+.our_doctors_first{
+  font-family: 'Arima Madurai', cursive;
+  color: #9C0058;
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 10%;
+  font-weight: 900;
+}
+.our_doctors_second{
+  font-family: 'Arima Madurai', cursive;
+  color: #9C0058;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px 10px 0 10px;
+  margin-bottom: 0px;
+  line-height: 35px;
+  font-weight: 900;
+  border-bottom: ridge #EAEAEA;
+}
+.our_doctors_third{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 13px;
+  line-height: 35px;
+  margin: 10px 25px 0 25px;
+  list-style-position: inside;
+}
+.our_doctors_posts_grey{
+  display: none;
+  background-color: #EAEAEA;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
 
 @media (min-width: 570px) and (max-width: 989px) {
   .index_main{
@@ -409,7 +440,7 @@ body{
     flex-wrap: nowrap;
     font-size: 10px;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 6px;
     border-radius: 0 0 10px 10px;
     background-color: #9C0058;
@@ -443,7 +474,7 @@ body{
     padding-bottom: 10px;
     font-size: 14px;
     width: 400px;
-    font-family: 'Amaranth', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   }
   .lower_header>*{
     margin: 0;
@@ -476,11 +507,12 @@ body{
   }
   .index_first_desktop_only{
     display: block;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #6E003F;
     font-size: 14px;
     line-height: 29px;
     margin-top: 15px;
+    font-weight: 900;
   }
 
   .index_after_hero{
@@ -578,7 +610,7 @@ body{
   }
   .posts_date_and_link{
     display: flex;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   .posts_date_and_link p{
     margin: 2px 0 2px 0 ;
@@ -593,7 +625,7 @@ body{
     border-right: ridge;
   }
   .article_blurb{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 21px;
     margin: 0;
     font-size: 10px;
@@ -662,7 +694,7 @@ body{
     margin: -3px 0 0 14px;
   }
   .our_services_buttons{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
     background-color: #56B4BA;
     font-size: 13px;
@@ -679,7 +711,7 @@ body{
     font-size: 24px;
     margin: 0;
     padding: 0;
-    font-family: 'Amaranth', sans-serif;
+  font-family: 'Arima Madurai', cursive;
      color: #9C0058;
     line-height: 35px;
   }
@@ -688,7 +720,7 @@ body{
     line-height: 20px;
     margin: 0;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #95989A;
   }
   .our_services_fourth_div{
