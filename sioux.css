@@ -277,7 +277,6 @@ font-family: 'Arima Madurai', cursive;
   list-style-position: inside;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  color: #95989A;
 }
 .our_services_buttons{
   font-family: 'Lato', sans-serif;
@@ -307,7 +306,6 @@ font-family: 'Arima Madurai', cursive;
   line-height: 32px;
   margin-bottom: 20px;
   font-family: 'Lato', sans-serif;
-  color: #95989A;
 }
 .our_services_fourth_div{
   margin-top: 40px;
@@ -356,8 +354,8 @@ font-family: 'Arima Madurai', cursive;
   color: #9C0058;
   text-align: center;
   font-size: 24px;
-  padding: 15px 10px 0 10px;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
+  margin-top: 6px;
   line-height: 35px;
   font-weight: 900;
   border-bottom: ridge #EAEAEA;
@@ -367,7 +365,7 @@ font-family: 'Arima Madurai', cursive;
   text-align: center;
   font-size: 13px;
   line-height: 35px;
-  margin: 10px 25px 0 25px;
+  margin: 10px 25px 30px 25px;
   list-style-position: inside;
 }
 .our_doctors_posts_grey{
@@ -721,7 +719,6 @@ font-family: 'Arima Madurai', cursive;
     margin: 0;
     margin-bottom: 20px;
     font-family: 'Lato', sans-serif;
-    color: #95989A;
   }
   .our_services_fourth_div{
     margin-top: 80px;
@@ -764,4 +761,15 @@ font-family: 'Arima Madurai', cursive;
     margin-bottom: 10px;
     border-radius: 8px;
   }
+  .our_doctors_posts_and_greybox{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .our_doctors_posts_grey{
+  display: block;
+  background-color: #EAEAEA;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
 }
