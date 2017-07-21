@@ -346,12 +346,12 @@ font-family: 'Arima Madurai', cursive;
   color: #9C0058;
   text-align: center;
   font-size: 36px;
-  padding-bottom: 10%;
   font-weight: 900;
+  margin-bottom: 0px;
 }
 .our_doctors_second{
-  font-family: 'Arima Madurai', cursive;
-  color: #9C0058;
+  font-family: 'Lato', sans-serif;
+  color: #95989A;
   text-align: center;
   font-size: 24px;
   margin-bottom: 40px;
@@ -359,6 +359,7 @@ font-family: 'Arima Madurai', cursive;
   line-height: 35px;
   font-weight: 900;
   border-bottom: ridge #EAEAEA;
+  padding-bottom: 10px;
 }
 .our_doctors_third{
   font-family: 'Lato', sans-serif;
@@ -709,8 +710,8 @@ font-family: 'Arima Madurai', cursive;
     font-size: 24px;
     margin: 0;
     padding: 0;
-  font-family: 'Arima Madurai', cursive;
-     color: #9C0058;
+    font-family: 'Arima Madurai', cursive;
+    color: #9C0058;
     line-height: 35px;
   }
   .our_services_third_div_text{
@@ -761,6 +762,41 @@ font-family: 'Arima Madurai', cursive;
     margin-bottom: 10px;
     border-radius: 8px;
   }
+  .our_doctors_main_divs{
+    margin-bottom: 23px;
+  }
+  .our_doctors_first {
+    font-family: 'Arima Madurai', cursive;
+    color: #9C0058;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 0;
+    margin-bottom: -10px;
+  }
+  .our_doctors_second {
+    font-family: 'Lato', sans-serif;
+    color: #95989A;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 28px;
+    font-weight: 900;
+    border-bottom: none;
+  }
+  .our_doctors_third {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0;
+    list-style-position: inside;
+  }
+  .our_doctors_posts{
+    display: flex;
+    margin-top: 52px
+  }
   .our_doctors_posts_and_greybox{
     display: flex;
     flex-direction: row-reverse;
@@ -770,6 +806,27 @@ font-family: 'Arima Madurai', cursive;
   background-color: #EAEAEA;
   border-radius: 8px;
   margin-bottom: 40px;
-  padding: 20px;
-}
+  padding: 35px;
+  margin-top: 132px;
+  margin-right: 75px;
+  }
+  .our_doctors_certifications_qualifications_education{
+    width:190px;
+    margin-bottom: 30px;
+  }
+  .our_doctors_greybox_header{
+    color: #9C0058;
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .our_doctors_greybox_text{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 11px;
+    line-height: 25px;
+    list-style-position: inside;
+    margin-top: 0px;  
+  }
 }
