@@ -297,7 +297,7 @@ font-family: 'Arima Madurai', cursive;
   font-size: 24px;
   margin: 0;
   padding: 0;
-font-family: 'Arima Madurai', cursive;
+  font-family: 'Arima Madurai', cursive;
    color: #9C0058;
   line-height: 35px;
 }
@@ -816,6 +816,7 @@ font-family: 'Arima Madurai', cursive;
   }
   .our_doctors_greybox_header{
     color: #9C0058;
+    font-family: 'Arima Madurai', cursive;
     text-align: left;
     font-size: 20px;
     margin: 0;
